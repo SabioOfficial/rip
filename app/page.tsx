@@ -24,6 +24,18 @@ export default function Home() {
         </div>
       </div>
       <hr className="border"></hr>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-row gap-2 items-center">
+          <Image src="/weird-ass-clock.jpg" alt="who the fuck draws this (alarm clock with detailed feet and hands btw)" width={32} height={32}></Image>
+          <h3 className="text-3xl">Timeset</h3>
+        </div>
+        <p>The app looked as ugly as you (very ugly) and got me demotivated NOOOooOOOOOOooooO also it was a stupid fucking idea</p>
+        <div className="flex flex-col gap-1 p-4 border-2">
+          <p><span className="text-xl">discontinuation reason:</span> burnt out + shit idea </p>
+          <p><span className="text-xl">would i work on this again:</span> <span className="text-red-600">FUCK NO</span></p>
+        </div>
+      </div>
+      <hr className="border"></hr>
     </div>
   );
 }
