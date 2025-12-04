@@ -56,6 +56,20 @@ export default function Home() {
           <p><span className="text-xl">would i work on this again:</span> <span className="text-green-500">YES!</span></p>
         </div>
       </div>
+      <hr className="border"></hr>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-row gap-2 items-center">
+          <Image src="/notebook.svg" alt="notebook logo wow this was a very good time waste of half an hour" height={0} width={0} className="h-8 w-auto"></Image>
+          <h3 className="text-3xl">Notebook <span className="text-xl">(aka "Nootbook" I SWEAR it was a mispelling bro)</span></h3>
+        </div>
+        <p>
+          a cool alternative docs app i worked for quntem. but once again, other projects got COMPLETELY and UTTERLY prioritized so like we didn't have time working on this
+        </p>
+        <div className="flex flex-col gap-1 p-4 border-2">
+          <p><span className="text-xl">discontinuation reason:</span> other projects got prioritized + lost momentum</p>
+          <p><span className="text-xl">would i work on this again:</span> <span className="text-amber-400">maybe...</span></p>
+        </div>
+      </div>
     </div>
   );
 }
