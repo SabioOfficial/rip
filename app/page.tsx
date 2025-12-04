@@ -36,6 +36,17 @@ export default function Home() {
         </div>
       </div>
       <hr className="border"></hr>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-row gap-2 items-center">
+          <Image src="/slackbot-happy-idk.png" alt="slackbot very happy png i found on the internyet" width={32} height={32}></Image>
+          <h3 className="text-3xl">UserRate</h3>
+        </div>
+        <p>i couldn't finish this in time for the summer of making "game jam" as other projects had priority idk what you fucking call it</p>
+        <div className="flex flex-col gap-1 p-4 border-2">
+          <p><span className="text-xl">discontinuation reason:</span> other projects were prioritized + ran out of time</p>
+          <p><span className="text-xl">would i work on this again:</span> <span className="text-green-500">YES!</span></p>
+        </div>
+      </div>
     </div>
   );
 }
